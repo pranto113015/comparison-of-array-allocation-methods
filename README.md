@@ -60,6 +60,9 @@ It concludes with a comparison of how each language handles memory allocation an
 
 ✔️ **Heap Dynamic**
 
+- **Java** : In Java, all arrays are heap-dynamic in the sense that they are allocated on the heap, but the term "heap-dynamic" typically refers to collections that can grow and shrink dynamically at runtime. Since Java's native arrays are fixed-size after creation, we typically use the ArrayList class from Java Collections Framework for true heap-dynamic behavior.
+
+- **JavaScript** : In JavaScript, all arrays are inherently heap-dynamic - they're objects that can grow and shrink dynamically at runtime. Unlike Java which requires special classes like ArrayList for dynamic arrays, JavaScript arrays are always resizable and flexible.
 
 
 ## Summary :
